@@ -1,0 +1,111 @@
+
+page-troupeau {
+	/* css pour le navbar */
+
+
+
+	ion-navbar{
+		div:first-child{
+			background-color: rgb(75,91,100);
+			color:white;
+		}
+		.bar-button::after{
+			background-color: rgb(196,0,108);
+			z-index: -1;
+			border-radius: 5px;		
+		}
+	}
+	ion-header{
+		background-color: rgb(75,91,100);
+	}
+	.bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default{
+		color: white; /* Couleur de la flèche pop() */
+	}
+	.search{
+		align-items: center;
+		background-color: white;
+		box-shadow: none;
+		font-size: 0.9em;
+		transition: 0.2s linear;
+	}
+	ion-item.item{
+		width: 96%;
+		margin-left: 2%;
+		border-radius: 5px;
+		height: 10px;
+		border: none;
+	}
+	.femelletoggle{
+		display: flex;
+		margin-left: 2%;
+		color: white;
+		height: 40px;
+	}
+
+	ion-label.label, .label-md{
+		margin: 0;
+		padding-top: 8px;
+		padding-left: 5px;
+	}
+	
+	/* *** *** *** *** *** *** ***
+	     Voici le CSS de la page
+
+	*** *** *** *** *** *** *** *** */
+
+	.round{
+		height:40px;
+		width: 60px;
+		border-radius: 50%;
+	}
+	.conteneur{
+		display: flex;
+		flex-direction: column;
+		width: 300px;
+	}
+	ion-row{
+		margin:none;
+	}
+	.titre{
+		color: rgb(196,0,108);
+	}
+	ion-col{
+		margin: none;
+		display: flex;
+		justify-content: space-between;
+	}
+	ion-content{
+		background-color: rgb(210,208,207) !important;
+	}
+	ion-car{
+		width: 100%;
+	}
+	aside{
+		/*border:solid red 1px;*/
+		/*height: 50px;*/
+	}
+	.second-line{
+		border-top: solid whitesmoke 1px;
+		border-bottom:  solid whitesmoke 1px;
+
+	}
+	.first{
+		border-right:  solid whitesmoke 1px;
+	}
+	.cow{
+		width: 25px;
+		height: 25px;
+	}
+	.third-line{
+		border-top: solid whitesmoke 1px;
+		border-right: solid whitesmoke 1px;
+		font-size: 12px;
+		color:#C3006B;
+		text-decoration: underline;
+		text-decoration-color: #C3006B;
+	}
+	.third-line aside{
+		padding-top: 10px;
+		padding-left: 4px;
+	}
+}

@@ -1,0 +1,88 @@
+
+page-searching {
+ion-navbar{
+		div:first-child{
+			background-color: rgb(75,91,100);
+			color:white;
+		}
+		.bar-button::after{
+			background-color: rgb(196,0,108);
+			z-index: -1;
+			border-radius: 5px;		
+		}
+	}
+.bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default{
+		color: white; /* Couleur de la flèche pop() */
+}
+ion-header{
+		background-color: rgb(75,91,100);
+}
+ion-item.item{
+		width: 96%;
+		margin-left: 2%;
+		border-radius: 5px;
+		height: 10px;
+		border: none;
+
+	}
+
+#search{
+	min-width: 200px;
+    padding-left: 5px;
+    /*box-shadow: 0 0.6em 3em lightgray;*/
+    border-radius: 5px;
+    
+}
+ion-item {
+	width: 96%;
+	margin-left: 2%;
+	border-radius: 5px;
+	height: 10px;
+	border: none;
+}
+/* Conteneur de toutes les lignes */
+.holepage{
+	display: flex;
+	flex-direction: column;
+}
+
+/*// Conteneur d'une ligne*/
+.conteneur{
+	display: flex;
+	flex-direction: column;
+	border-bottom: solid 1px whitesmoke;
+	width: 300px;
+	height: 70px;
+}
+
+ion-col{
+	display: flex;
+	justify-content: space-between;
+}
+
+/*// Conteneur des charactéristiques d'un troupeau (EDE, Raison Social & City)*/
+.troupeau{
+	padding-top: none;
+	padding-left: none;
+	margin-top: none;
+	margin-left: none;
+	height: 20px;
+	color: grey;
+	/*border:solid 1px orange;*/
+}
+
+.subline{
+	padding-top: none;
+	padding-left: none;
+	margin-top: none;
+	margin-left: none;
+	height: 20px;
+	color: lightgrey;
+}
+aside{
+	padding-top: 30px;
+	border-bottom: solid 1px whitesmoke;
+	border-left: solid 1px whitesmoke;
+	/*border-top: solid 1px red;*/
+}
+}

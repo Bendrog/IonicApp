@@ -1,0 +1,50 @@
+// http://ionicframework.com/docs/theming/
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+ion-icon {
+    cursor: pointer;
+    &[class*="custom-"] {
+        mask-size: contain;
+        mask-position: 50% 50%;
+        mask-repeat: no-repeat;
+        background: currentColor;
+        width: 1em;
+        height: 1em;
+    }
+    &[class*="custom-pdf"] {
+        mask-image: url(../assets/imgs/file-pdf.svg);
+    }
+    &[class*="custom-cheptel"] {
+        mask-image: url(../assets/imgs/vache.svg);
+    }
+}
+
+.ios ion-header {
+    .padding-0 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.md ion-header {
+    font-size: 3vh;
+    .padding-0 {}
+}
+
+.search {
+    min-width: 200px;
+    padding-left: 5px;
+    border: 1px solid lightgray;
+    box-shadow: 0 0.6em 3em lightgray;
+}
