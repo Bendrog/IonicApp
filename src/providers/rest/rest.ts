@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Platform } from "ionic-angular";
 import { Observable } from "rxjs/Rx";
-import {Troupeau} from '../../interface/Troupeaux';
+// import {Troupeau} from '../../interface/Troupeaux';
 
 
 /*
@@ -15,17 +15,18 @@ import {Troupeau} from '../../interface/Troupeaux';
 export class RestProvider {
 private baseUrl: string = "../../assets/api/troupeaux.json";
 
-  constructor(
-    public readonly http: HttpClient,
-    private readonly platform: Platform) {
-    console.log('Hello RestProvider Provider');
-     if (this.platform.is("cordova") && this.platform.is("android")) {
-      this.baseUrl = "../../../www/assets/api/troupeaux.json";
-    }
-  }
 
+  constructor(
+    private  http: HttpClient,
+    private  platform: Platform
+    ) {
+      
+    }
+ 
   getTroupeaux(): Observable<any>{
-    return this.http.get(`${this.baseUrl}`);
+      console.log('hello world');
+
+    return this.http.get(this.baseUrl);
   }
 
 }

@@ -1,8 +1,9 @@
 
+
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {Troupeau} from '../../interface/Troupeaux';
-// import {TroupeauPage} from '../troupeau/troupeau';
+import {TroupeauPage} from '../troupeau/troupeau';
 import {RestProvider} from '../../providers/rest/rest';
 
 /**
@@ -27,14 +28,14 @@ export class SearchingPage {
   	) {}
   
   ionViewDidLoad() {
-  	this.restProvider.getTroupeaux().subscribe(data =>{
+  	this.restProvider.getTroupeaux().subscribe(data => {
   		this.troupeaux = data;
+      console.log("Data: ==>"+data);
   	});
     }
 
-  // ToTroupeau(troupeau: Troupeau){
-  	  // this.navCtrl.push(TroupeauPage, troupeau);
-
-  // }
+  ToTroupeau(troupeau: Troupeau){
+  	  this.navCtrl.push(TroupeauPage, troupeau);
+  }
 
 }

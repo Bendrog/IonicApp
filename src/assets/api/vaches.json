@@ -1,0 +1,32 @@
+[
+	{
+  		"id":"1",
+  		"age": "9ans et 4 mois",
+  		"name":"Tokyo",
+  		"code_race":123,
+  		"date_de_terme":"90 jours",
+  		"sexee_femelle":false,
+  		"croisement":false,
+  		"reforme":false,
+  	},
+  	{
+  		"id":"564",
+  		"age": "1ans et 4 mois",
+  		"name":"Berlin",
+  		"code_race":845,
+  		"date_de_terme":"12 jours",
+  		"sexee_femelle":false,
+  		"croisement":false,
+  		"reforme":false,
+  	},
+  	{
+  		"id":"62454",
+  		"age": "6ans et 2 mois",
+  		"name":"Nairobi",
+  		"code_race":6485,
+  		"date_de_terme":"64 jours",
+  		"sexee_femelle":false,
+  		"croisement":false,
+  		"reforme":false,
+  	}
+]

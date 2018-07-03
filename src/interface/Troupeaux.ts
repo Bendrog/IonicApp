@@ -1,5 +1,5 @@
-import {Cow} from './cow';
 
+import {Cow} from './cow';
     export interface Troupeau {
         id: string;
         EDE: number;
