@@ -15,8 +15,6 @@ import {Troupeau} from '../../interface/Troupeaux';
 export class RestProvider {
 private baseUrl: string = "../../assets/api/troupeaux.json";
 
-  troupeaux: Troupeau[];
-
   constructor(
     public readonly http: HttpClient,
     private readonly platform: Platform) {
