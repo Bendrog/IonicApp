@@ -1,306 +1,297 @@
-[
-	{
-		"id":"14863",
+[{
+		"id": "14863",
 		"EDE": 53176211,
 		"etab": "GAEC DE BARADABA",
 		"city": "LE PAS",
-		"cows": [
-				{
-			  		"id":"1",
-			  		"age": "9ans et 4 mois",
-			  		"name":"Bellissima",
-			  		"code_race":123,
-			  		"date_de_terme":"90 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	},
-			  	{
-			  		"id":"564",
-			  		"age": "1ans et 4 mois",
-			  		"name":"Wallida",
-			  		"code_race":845,
-			  		"date_de_terme":"12 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	},
-			  	{
-			  		"id":"62454",
-			  		"age": "6ans et 2 mois",
-			  		"name":"grosse truie",
-			  		"code_race":6485,
-			  		"date_de_terme":"64 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	}
-			  	]
+		"cows": [{
+				"id": "1",
+				"age": "9ans et 4 mois",
+				"name": "Bellissima",
+				"code_race": 123,
+				"date_de_terme": "90 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			},
+			{
+				"id": "564",
+				"age": "1ans et 4 mois",
+				"name": "Wallida",
+				"code_race": 845,
+				"date_de_terme": "12 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			},
+			{
+				"id": "62454",
+				"age": "6ans et 2 mois",
+				"name": "grosse truie",
+				"code_race": 6485,
+				"date_de_terme": "64 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			}
+		]
 	},
 	{
-		"id":"84645",
+		"id": "84645",
 		"EDE": 53176218,
 		"etab": "GAEC DE LA LANDE",
 		"city": "LE PAS",
-		"cows": [
-				{
-			  		"id":"684",
-			  		"age": "2ans et 7mois",
-			  		"name":"Georgio",
-			  		"code_race":847,
-			  		"date_de_terme":"2 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	},
-			  	{
-			  		"id":"996669",
-			  		"age": "4 mois",
-			  		"name":"Guenièvre",
-			  		"code_race":20123,
-			  		"date_de_terme":"1 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	},
-			  	{
-			  		"id":"2040",
-			  		"age": "4ans et 2 mois",
-			  		"name":"Petit Elephant",
-			  		"code_race":6485,
-			  		"date_de_terme":"66 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	}
-			  	]
+		"cows": [{
+				"id": "684",
+				"age": "2ans et 7mois",
+				"name": "Georgio",
+				"code_race": 847,
+				"date_de_terme": "2 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			},
+			{
+				"id": "996669",
+				"age": "4 mois",
+				"name": "Guenièvre",
+				"code_race": 20123,
+				"date_de_terme": "1 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			},
+			{
+				"id": "2040",
+				"age": "4ans et 2 mois",
+				"name": "Petit Elephant",
+				"code_race": 6485,
+				"date_de_terme": "66 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			}
+		]
 	},
 	{
-		"id":"564151",
+		"id": "564151",
 		"EDE": 53176231,
 		"etab": "EARL LE GRAND ERVAULT",
 		"city": "LE PAS",
-		"cows": [
-				{
-			  		"id":"845",
-			  		"age": "3ans et 7 mois",
-			  		"name":"Lancelot",
-			  		"code_race":123,
-			  		"date_de_terme":"90 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	},
-			  	{
-			  		"id":"564",
-			  		"age": "1ans et 4 mois",
-			  		"name":"King Arthur",
-			  		"code_race":845,
-			  		"date_de_terme":"12 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	},
-			  	{
-			  		"id":"35645684",
-			  		"age": "10 et 2 mois",
-			  		"name":"Amel Bent",
-			  		"code_race":6485,
-			  		"date_de_terme":"88 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	}
-			  	]
+		"cows": [{
+				"id": "845",
+				"age": "3ans et 7 mois",
+				"name": "Lancelot",
+				"code_race": 123,
+				"date_de_terme": "90 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			},
+			{
+				"id": "564",
+				"age": "1ans et 4 mois",
+				"name": "King Arthur",
+				"code_race": 845,
+				"date_de_terme": "12 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			},
+			{
+				"id": "35645684",
+				"age": "10 et 2 mois",
+				"name": "Amel Bent",
+				"code_race": 6485,
+				"date_de_terme": "88 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			}
+		]
 	},
 	{
-		"id":"5435432",
+		"id": "5435432",
 		"EDE": 53176235,
 		"etab": "DUPONT Jean",
 		"city": "LE PAS",
-		"cows": [
-				{
-			  		"id":"654",
-			  		"age": "9ans et 4 mois",
-			  		"name":"Legolas",
-			  		"code_race":657,
-			  		"date_de_terme":"31 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	},
-			  	{
-			  		"id":"564",
-			  		"age": "12ans et 4 mois",
-			  		"name":"guimli",
-			  		"code_race":845,
-			  		"date_de_terme":"98 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	},
-			  	{
-			  		"id":"62454",
-			  		"age": "6ans et 2 mois",
-			  		"name":"Aragog",
-			  		"code_race":6485,
-			  		"date_de_terme":"46 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	}
-			  	]
+		"cows": [{
+				"id": "654",
+				"age": "9ans et 4 mois",
+				"name": "Legolas",
+				"code_race": 657,
+				"date_de_terme": "31 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			},
+			{
+				"id": "564",
+				"age": "12ans et 4 mois",
+				"name": "guimli",
+				"code_race": 845,
+				"date_de_terme": "98 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			},
+			{
+				"id": "62454",
+				"age": "6ans et 2 mois",
+				"name": "Aragog",
+				"code_race": 6485,
+				"date_de_terme": "46 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			}
+		]
 	},
 	{
-		"id":"684321354",
+		"id": "684321354",
 		"EDE": 53176245,
 		"etab": "GAEC DE LA VACHE",
 		"city": "LE PAS",
-		"cows": [
-				{
-			  		"id":"1",
-			  		"age": "9ans et 4 mois",
-			  		"name":"gandalf",
-			  		"code_race":123,
-			  		"date_de_terme":"90 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	},
-			  	{
-			  		"id":"564",
-			  		"age": "1ans et 4 mois",
-			  		"name":"sauron",
-			  		"code_race":845,
-			  		"date_de_terme":"12 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	},
-			  	{
-			  		"id":"62454",
-			  		"age": "6ans et 2 mois",
-			  		"name":"Frodon",
-			  		"code_race":6485,
-			  		"date_de_terme":"64 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	}
-			  	]
+		"cows": [{
+				"id": "1",
+				"age": "9ans et 4 mois",
+				"name": "gandalf",
+				"code_race": 123,
+				"date_de_terme": "90 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			},
+			{
+				"id": "564",
+				"age": "1ans et 4 mois",
+				"name": "sauron",
+				"code_race": 845,
+				"date_de_terme": "12 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			},
+			{
+				"id": "62454",
+				"age": "6ans et 2 mois",
+				"name": "Frodon",
+				"code_race": 6485,
+				"date_de_terme": "64 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			}
+		]
 	},
 	{
-		"id":"8645331",
+		"id": "8645331",
 		"EDE": 53176262,
 		"etab": "EARL LE GRAND LIEU",
 		"city": "LE PAS",
-		"cows": [
-				{
-			  		"id":"1",
-			  		"age": "9ans et 4 mois",
-			  		"name":"Harry Potter",
-			  		"code_race":123,
-			  		"date_de_terme":"90 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	},
-			  	{
-			  		"id":"564",
-			  		"age": "1ans et 4 mois",
-			  		"name":"Ron Wisley",
-			  		"code_race":845,
-			  		"date_de_terme":"12 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	},
-			  	{
-			  		"id":"62454",
-			  		"age": "6ans et 2 mois",
-			  		"name":"Hermione Granger",
-			  		"code_race":6485,
-			  		"date_de_terme":"64 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	}
-			  	]
+		"cows": [{
+				"id": "1",
+				"age": "9ans et 4 mois",
+				"name": "Harry Potter",
+				"code_race": 123,
+				"date_de_terme": "90 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			},
+			{
+				"id": "564",
+				"age": "1ans et 4 mois",
+				"name": "Ron Wisley",
+				"code_race": 845,
+				"date_de_terme": "12 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			},
+			{
+				"id": "62454",
+				"age": "6ans et 2 mois",
+				"name": "Hermione Granger",
+				"code_race": 6485,
+				"date_de_terme": "64 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			}
+		]
 	},
 	{
-		"id":"564351",
+		"id": "564351",
 		"EDE": 53176265,
 		"etab": "DURAND Bertrand",
-		"city": "LE PAS", 
-		"cows": [
-				{
-			  		"id":"1",
-			  		"age": "9ans et 4 mois",
-			  		"name":"Tokyo",
-			  		"code_race":123,
-			  		"date_de_terme":"90 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	},
-			  	{
-			  		"id":"564",
-			  		"age": "1ans et 4 mois",
-			  		"name":"Berlin",
-			  		"code_race":845,
-			  		"date_de_terme":"12 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	},
-			  	{
-			  		"id":"62454",
-			  		"age": "6ans et 2 mois",
-			  		"name":"Nairobi",
-			  		"code_race":6485,
-			  		"date_de_terme":"64 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	}
-			  	]
+		"city": "LE PAS",
+		"cows": [{
+				"id": "1",
+				"age": "9ans et 4 mois",
+				"name": "Tokyo",
+				"code_race": 123,
+				"date_de_terme": "90 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			},
+			{
+				"id": "564",
+				"age": "1ans et 4 mois",
+				"name": "Berlin",
+				"code_race": 845,
+				"date_de_terme": "12 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			},
+			{
+				"id": "62454",
+				"age": "6ans et 2 mois",
+				"name": "Nairobi",
+				"code_race": 6485,
+				"date_de_terme": "64 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			}
+		]
 	},
 	{
-		"id":"6843512",
+		"id": "6843512",
 		"EDE": 53176281,
 		"etab": "LESPESQUER Alan",
-		"city":"LE PAS",
-		"cows": [
-				{
-			  		"id":"1",
-			  		"age": "9ans et 4 mois",
-			  		"name":"Mc Gonagald",
-			  		"code_race":123,
-			  		"date_de_terme":"90 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	},
-			  	{
-			  		"id":"564",
-			  		"age": "1ans et 4 mois",
-			  		"name":"Dumbeldor",
-			  		"code_race":845,
-			  		"date_de_terme":"12 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	},
-			  	{
-			  		"id":"62454",
-			  		"age": "6ans et 2 mois",
-			  		"name":"Rogue",
-			  		"code_race":6485,
-			  		"date_de_terme":"64 jours",
-			  		"sexee_femelle":false,
-			  		"croisement":false,
-			  		"reforme":false,
-			  	}
-			  	] 
+		"city": "LE PAS",
+		"cows": [{
+				"id": "1",
+				"age": "9ans et 4 mois",
+				"name": "Mc Gonagald",
+				"code_race": 123,
+				"date_de_terme": "90 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			},
+			{
+				"id": "564",
+				"age": "1ans et 4 mois",
+				"name": "Dumbeldor",
+				"code_race": 845,
+				"date_de_terme": "12 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			},
+			{
+				"id": "62454",
+				"age": "6ans et 2 mois",
+				"name": "Rogue",
+				"code_race": 6485,
+				"date_de_terme": "64 jours",
+				"sexee_femelle": false,
+				"croisement": false,
+				"reforme": false
+			}
+		]
 	}
 ]
