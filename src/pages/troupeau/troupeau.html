@@ -1,3 +1,5 @@
+
+
 <!--
   Generated template for the TroupeauPage page.
 
@@ -12,18 +14,18 @@
   <div>
   	<ion-item class="search">
   		<ion-label><ion-icon name="search" > </ion-icon></ion-label>
-  		<ion-input id='search' placeholder="N°travail, nom ..."> </ion-input>
+  		<ion-input id='search' (keyup)="applyFilter($event.target.value)" placeholder="N°travail, nom ..."> </ion-input>
   	</ion-item>
-  	<div class="femelletoggle">
+  	<div class="femelletoggle" >
   		<ion-label>Femelle sans vigilence ?</ion-label>
-  		<ion-toggle ion-toggle-text="oui;non" ng-model="customText"></ion-toggle>
+  		<ion-toggle [(ngModel)]="toggleValue"></ion-toggle>
   	</div>
   </div>
 
 </ion-header>
 
 
-<ion-content >
+<ion-content *ngIf="!toggleValue">
 	<ion-card *ngFor="let cow of cows">
 		<ion-grid>
 			<ion-row>
@@ -38,9 +40,22 @@
 				</ion-col>
 			</ion-row>
 			<ion-row class="second-line">
-				<ion-col class="first" col-11>
-					Vigilence: aucune
+				<ion-col class="first" col-3 (click)="vigilence(cow)">
+					Vigilence:
 				</ion-col>
+				<ion-col col-2>
+					<div *ngIf="cow.vigilence[0]" class="vigilence"><img src="../../assets/icon/one.png"><p>{{cow.vigilence[0]}}</p></div>
+				</ion-col>
+
+				<ion-col col-2>
+					<div *ngIf="cow.vigilence[1]" class="vigilence"><img src="../../assets/icon/two.png"><p>{{cow.vigilence[1]}}</p></div>
+				</ion-col>
+
+				<ion-col col-2>
+					<div *ngIf="cow.vigilence[2]" class="vigilence"><img src="../../assets/icon/three.png"><p>{{cow.vigilence[2]}}</p></div>
+				</ion-col>
+				<ion-col col-2></ion-col>
+
 				<ion-col col-1>
 					<img src="../../assets/icon/play-button.png">
 				</ion-col>

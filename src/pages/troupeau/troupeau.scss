@@ -108,4 +108,17 @@ page-troupeau {
 		padding-top: 10px;
 		padding-left: 4px;
 	}
+
+	.vigilence{
+		display: flex;
+		flex-direction: row;
+	}
+	.vigilence img{
+		width: 20px;
+		height: 20px;
+		/*padding-right: 5px;*/
+	}
+	.vigilence p{
+		padding-left: 3px;
+	}
 }

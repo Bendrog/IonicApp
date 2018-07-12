@@ -2,13 +2,14 @@
 		"id": "14863",
 		"EDE": 53176211,
 		"etab": "Des barres de rigolade",
-		"city": "LE PAS",
+		"city": "DE PAS",
 		"cows": [{
 				"id": "1",
 				"age": "9ans et 4 mois",
 				"name": "Bellissima",
 				"code_race": 123,
 				"date_de_terme": "90 jours",
+				"vigilence": [],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -19,6 +20,7 @@
 				"name": "Wallida",
 				"code_race": 845,
 				"date_de_terme": "12 jours",
+				"vigilence": ["Lait", "LP"],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -29,6 +31,7 @@
 				"name": "grosse truie",
 				"code_race": 6485,
 				"date_de_terme": "64 jours",
+				"vigilence": ["LP"],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -39,13 +42,14 @@
 		"id": "84645",
 		"EDE": 53176218,
 		"etab": "GAEC DE LA LANDE",
-		"city": "LE PAS",
+		"city": "DE PAS",
 		"cows": [{
 				"id": "684",
 				"age": "2ans et 7mois",
 				"name": "Georgio",
 				"code_race": 847,
 				"date_de_terme": "2 jours",
+				"vigilence": ["MP"],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -56,6 +60,7 @@
 				"name": "Guenièvre",
 				"code_race": 20123,
 				"date_de_terme": "1 jours",
+				"vigilence": [],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -66,6 +71,7 @@
 				"name": "Petit Elephant",
 				"code_race": 6485,
 				"date_de_terme": "66 jours",
+				"vigilence": ["Lait", "MP", "LP"],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -83,6 +89,7 @@
 				"name": "Lancelot",
 				"code_race": 123,
 				"date_de_terme": "90 jours",
+				"vigilence": [],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -93,6 +100,7 @@
 				"name": "King Arthur",
 				"code_race": 845,
 				"date_de_terme": "12 jours",
+				"vigilence": ["MP"],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -103,6 +111,7 @@
 				"name": "Amel Bent",
 				"code_race": 6485,
 				"date_de_terme": "88 jours",
+				"vigilence": ["Lait"],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -120,6 +129,7 @@
 				"name": "Legolas",
 				"code_race": 657,
 				"date_de_terme": "31 jours",
+				"vigilence": [],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -130,6 +140,7 @@
 				"name": "guimli",
 				"code_race": 845,
 				"date_de_terme": "98 jours",
+				"vigilence": [],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -140,6 +151,7 @@
 				"name": "Aragog",
 				"code_race": 6485,
 				"date_de_terme": "46 jours",
+				"vigilence": [],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -157,6 +169,7 @@
 				"name": "gandalf",
 				"code_race": 123,
 				"date_de_terme": "90 jours",
+				"vigilence": [],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -167,6 +180,7 @@
 				"name": "sauron",
 				"code_race": 845,
 				"date_de_terme": "12 jours",
+				"vigilence": [],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -177,6 +191,7 @@
 				"name": "Frodon",
 				"code_race": 6485,
 				"date_de_terme": "64 jours",
+				"vigilence": [],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -194,6 +209,7 @@
 				"name": "Harry Potter",
 				"code_race": 123,
 				"date_de_terme": "90 jours",
+				"vigilence": ["Lait"],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -204,6 +220,7 @@
 				"name": "Ron Wisley",
 				"code_race": 845,
 				"date_de_terme": "12 jours",
+				"vigilence": [],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -214,6 +231,7 @@
 				"name": "Hermione Granger",
 				"code_race": 6485,
 				"date_de_terme": "64 jours",
+				"vigilence": ["LP"],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -231,6 +249,7 @@
 				"name": "Tokyo",
 				"code_race": 123,
 				"date_de_terme": "90 jours",
+				"vigilence": [],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -241,6 +260,7 @@
 				"name": "Berlin",
 				"code_race": 845,
 				"date_de_terme": "12 jours",
+				"vigilence": [],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -251,6 +271,7 @@
 				"name": "Nairobi",
 				"code_race": 6485,
 				"date_de_terme": "64 jours",
+				"vigilence": [],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -268,6 +289,7 @@
 				"name": "Mc Gonagald",
 				"code_race": 123,
 				"date_de_terme": "90 jours",
+				"vigilence": ["LP", "Lait"],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -278,6 +300,7 @@
 				"name": "Dumbeldor",
 				"code_race": 845,
 				"date_de_terme": "12 jours",
+				"vigilence": [],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
@@ -288,6 +311,7 @@
 				"name": "Rogue",
 				"code_race": 6485,
 				"date_de_terme": "64 jours",
+				"vigilence": ["LP", "MP", "Lait"],
 				"sexee_femelle": false,
 				"croisement": false,
 				"reforme": false
